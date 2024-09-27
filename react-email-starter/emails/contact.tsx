@@ -51,7 +51,7 @@ export const WelcomeEmail = ({ name, email, reason }: WelcomeEmailProps) => (
         >
           <mask
             id="mask0_25_321"
-            style="mask-type:luminance"
+            style={{ maskType: "luminance" }}
             maskUnits="userSpaceOnUse"
             x="23"
             y="2"
@@ -73,7 +73,7 @@ export const WelcomeEmail = ({ name, email, reason }: WelcomeEmailProps) => (
           </g>
           <mask
             id="mask1_25_321"
-            style="mask-type:luminance"
+            style={{ maskType: "luminance" }}
             maskUnits="userSpaceOnUse"
             x="22"
             y="0"
@@ -92,7 +92,7 @@ export const WelcomeEmail = ({ name, email, reason }: WelcomeEmailProps) => (
           </g>
           <mask
             id="mask2_25_321"
-            style="mask-type:luminance"
+            style={{ maskType: "luminance" }}
             maskUnits="userSpaceOnUse"
             x="23"
             y="0"
