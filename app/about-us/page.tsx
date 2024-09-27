@@ -199,10 +199,7 @@ export default function AboutUs() {
               className="md:rounded-r-[10px] rounded-b-[10px] md:rounded-bl-none"
               src="https://www.youtube.com/embed/dxYnk2fibeY?si=94W1LR6iaGXhLNAn"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
             ></iframe>
           </div>
         </div>
