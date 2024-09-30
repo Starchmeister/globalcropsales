@@ -196,7 +196,7 @@ const products = [
     productType: "roasted",
   },
   {
-    imageSrc: " /Redskins.svg",
+    imageSrc: " /RedSkins.svg",
     imageAlt: "Redskins (Valenica)",
     productTitle: "Redskins (Valenica)",
     productDescription:
