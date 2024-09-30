@@ -10,8 +10,8 @@ export async function POST(request: Request) {
   try {
     // Send email using Resend
     await resend.emails.send({
-      from: "onboarding@resend.dev",
-      to: "william.kumwenda@globalcropsales.com",
+      from: "automatedsalesfunnel@globalcropsales.com",
+      to: "info@globalcropsales.com",
       subject: "Customer Funnel",
       react: WelcomeEmail({ name: name, email: email, reason: reason }), // Pass props to the component
     });
