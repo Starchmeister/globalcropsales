@@ -1,9 +1,10 @@
 import { BookMarked, Fingerprint, Handshake, Ticket } from "lucide-react";
 import Image from "next/image";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "Global Crop Sales | About Us",
 };
 
 export default function AboutUs() {
@@ -18,7 +19,7 @@ export default function AboutUs() {
               <br />
               <span>Story</span>
             </h1>
-            <p className="text-[13px] md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               Global Crop Sales (GCS) was founded by William Kumwenda, a lawyer
               with a wealth of experience in agribusiness. William saw an
               opportunity to create a global company focused on marketing and
@@ -55,12 +56,14 @@ export default function AboutUs() {
               </div>
               <div className="py-2 pl-2 pr-3">
                 <p className="text-[10px] ml-1">Mr William Kumwenda, Founder</p>
-                <Image
-                  width={24}
-                  height={24}
-                  src="/LinkedIn.svg"
-                  alt="Will Kumwenda"
-                />
+                <Link href="https://www.linkedin.com/in/william-kumwenda-b6266316a/?originalSubdomain=za">
+                  <Image
+                    width={24}
+                    height={24}
+                    src="/LinkedIn.svg"
+                    alt="Will Kumwenda"
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -70,10 +73,10 @@ export default function AboutUs() {
         <div className="rounded-[10px] bg-gcs_lightgreen h-[452px] md:pb-[0px] pb-[200px]  md:flex flex-row ">
           <div className="md:w-1/2 p-8 flex justify-center  py-8 md:items-start flex-col">
             <Fingerprint className="w-[24px] mb-2 h-[24px]" />
-            <h3 className="text-[24px] pb-4  md:text-left tracking-[-2px] font-medium">
+            <h3 className="text-[42px] pb-4 md:text-left tracking-[-2px] font-medium">
               Who are we?
             </h3>
-            <p className="text-[13px] md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               Global Crop Sales is a trusted international trading company
               specializing in the supply of premium peanuts, macadamia nuts, and
               beans.
@@ -109,20 +112,19 @@ export default function AboutUs() {
         <div className="rounded-[10px] z-20 bg-white relative  w-full md:flex flex-row ">
           <div className=" p-8 flex z-20 bg-white  justify-center py-8 md:items-start flex-col rounded-[10px]">
             <Handshake className="w-[24px] mb-2 h-[24px]" />
-            <h3 className="text-[24px] pb-4 md:text-left tracking-[-2px] font-medium">
+            <h3 className="text-[42px] pb-4 md:text-left tracking-[-2px] font-medium">
               Our Partners
             </h3>
-            <p className="text-[13px] md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               At Global Crop Sales, we partner closely with Nutaria, a trusted
               food processor renowned for its industry-leading standards and
               commitment to excellence.
               <br />
               <br />
-              Nutaria holds essential food safety certifications, including ISO
-              22000 and FSSC 22000, ensuring the highest levels of compliance
-              with international food safety regulations. Nutarias
-              state-of-the-art processing facilities are equipped with the
-              latest technology, enabling precise and efficient handling of
+              Nutaria holds essential food safety certifications, such as FSSC
+              22000, ensuring the highest levels of compliance with
+              international food safety regulations. Nutaria’s state-of-the-art
+              processing facilities enables precise and efficient handling of
               crops such as nuts, beans, and other produce. Their rigorous
               quality control processes are designed to maintain the integrity,
               safety, and freshness of every product, from farm to export.
@@ -154,10 +156,10 @@ export default function AboutUs() {
               <Ticket className="w-[24px] mb-2 h-[24px]" />
             </div>
 
-            <h3 className="text-[24px] pb-4  md:text-left tracking-[-2px] font-medium">
+            <h3 className="text-[42px] pb-4 md:text-left tracking-[-2px] font-medium">
               Events: Gulfood Tradeshow
             </h3>
-            <p className="text-[13px] md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               Gulfood is one of the world’s most influential food and beverage
               trade shows, held annually in Dubai. It brings together over 5,000
               exhibitors from more than 200 countries, offering an unparalleled
@@ -167,11 +169,29 @@ export default function AboutUs() {
             </p>
             <div className="">
               <div className="flex justify-center  py-2 md:items-start flex-col">
-                <h3 className="text-[13px] pb-4   tracking-[-1px] font-medium">
-                  Other Events you can find us at
+                <h3 className="text-[24px] pb-4   tracking-[-1px] font-medium">
+                  Other Events you can find us at:
                 </h3>
               </div>
-              <div className=" h-[100px] w-full flex gap-8 relative">
+              <div className=" md:h-[100px] w-full flex gap-8 relative">
+                <div className=" relative h-full">
+                  <Image
+                    src="/MalawiChamber.svg"
+                    width={100}
+                    height={100}
+                    alt={""}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className=" relative h-full">
+                  <Image
+                    src="/FHC.svg"
+                    width={100}
+                    height={100}
+                    alt={""}
+                    sizes="100vw"
+                  />
+                </div>
                 <div className=" relative h-full">
                   <Image
                     src="/GTR.svg"

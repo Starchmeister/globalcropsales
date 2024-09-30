@@ -3,7 +3,7 @@ import { ContactUsForm } from "@/components/ui/contact-us-form";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us Today",
+  title: "Global Crop Sales | Contact Us",
 };
 
 export default function ContactUsPage() {

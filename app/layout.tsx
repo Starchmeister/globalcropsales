@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     "wholesale macadamia sourcing",
     "bulk bean wholesaler",
   ],
-  title: "Global Crop Sales ",
+  title: "Global Crop Sales | Home ",
   openGraph: {
     description:
       "Premier global supplier of high-quality bulk nuts and beans. Specializing in wholesale peanuts, macadamia nuts, and diverse bean varieties for industrial and commercial buyers. ",

@@ -15,7 +15,9 @@ export default function Home() {
           <span className="text-gcs_green">Trusted</span> Global <br /> Supplier
           of <span className="text-gcs_green">Premium</span> <br /> Nuts & Beans
         </h1>
-        <Button>Request a Quote</Button>
+        <Link href="/contact-us">
+          <Button>Request a Quote</Button>
+        </Link>
       </section>
       <section className="flex gap-4  mt-[-120px] flex-col w-full justify-between px-4 md:flex-row md:px-8 lg:px-16 xl:px-32 2xl:px-64">
         <ImageCard
@@ -41,10 +43,10 @@ export default function Home() {
         <div className="rounded-[10px] bg-gcs_lightgreen h-[452px]  md:flex flex-row ">
           <div className="md:w-1/2 p-8 flex justify-center  py-8 md:items-start flex-col">
             <BookMarked className="w-[24px] mb-2 h-[24px]" />
-            <h3 className="text-[24px] pb-4  md:text-left tracking-[-2px] font-medium">
+            <h3 className="text-[42px] pb-4  md:text-left tracking-[-2px] font-medium">
               Our Story
             </h3>
-            <p className="text-sm md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               Global Crop Sales is a trusted international trading company
               specializing in the supply of premium peanuts, macadamia nuts, and
               beans.
@@ -90,14 +92,14 @@ export default function Home() {
         <div className="rounded-[10px] z-20 bg-white  w-full md:flex flex-row ">
           <div className=" p-8 flex z-20 bg-white  justify-center py-8 md:items-start flex-col rounded-[10px]">
             <Earth className="w-[24px] mb-2 h-[24px]" />
-            <h3 className="text-[24px] pb-4 md:text-left tracking-[-2px] font-medium">
+            <h3 className="text-[42px] pb-4 md:text-left tracking-[-2px] font-medium">
               Global Operations
             </h3>
-            <p className="text-[13px] md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               We proudly operate in 12 countries across Africa, driving
               innovation and operational excellence in:
               <br />
-              <ul className="list-disc ml-4">
+              <ul className="list-disc text-sm leading-relaxed ml-4">
                 <li>South Africa</li>
                 <li>Mozambique</li>
                 <li>Zimbabwe</li>
@@ -111,12 +113,12 @@ export default function Home() {
               </ul>
               <br />
             </p>
-            <p className="text-[13px]">
+            <p className="text-sm md:text-left leading-relaxed">
               Beyond Africa, our global footprint extends to 4 key international
               markets:{" "}
             </p>
 
-            <ul className="list-disc text-[13px] ml-4">
+            <ul className="list-disc text-sm leading-relaxed ml-4">
               <li>Netherlands</li>
               <li>Lithuania</li>
               <li>Vietnam</li>
@@ -124,7 +126,7 @@ export default function Home() {
             </ul>
             <br />
 
-            <p className="text-[13px]">
+            <p className="text-sm md:text-left leading-relaxed">
               With a presence in 16 countries worldwide, we are committed to
               delivering solutions that empower industries with actionable
               insights and digital transformation.

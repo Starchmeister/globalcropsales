@@ -21,19 +21,19 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Peanuts",
     href: "/products/peanuts",
     description:
-      "Our global business truly covers the full spectrum of peanut's potential. So no matter what variety, origin, or product type you’re after, we can deliver it.",
+      "Premium peanuts sourced sustainably, ensuring quality and reliability across supply chains.",
   },
   {
     title: "Macadamia Nuts",
     href: "/products/macadamia-nuts",
     description:
-      "Our global business truly covers the full spectrum of peanut's potential. So no matter what variety, origin, or product type you’re after, we can deliver it.",
+      "Our macadamia nuts offer exceptional taste, sourced from trusted global farms",
   },
   {
     title: "Beans",
     href: "/products/beans",
     description:
-      "Our global business truly covers the full spectrum of peanut's potential. So no matter what variety, origin, or product type you’re after, we can deliver it.",
+      "We source high-quality beans from reliable farms, meeting global demands.",
   },
 ];
 
@@ -58,17 +58,19 @@ export function Navbar() {
       {/* Not Mobile */}
       <div className="hidden md:flex items-center justify-between gap-8 h-full">
         <div className="w-full flex gap-12  items-center justify-center">
-          <div className="w-full">
-            <div>
-              <Image
-                className="mb-2"
-                width={82}
-                src="/Logo.svg"
-                height={52}
-                alt="logo"
-              />
+          <Link className="text-black text-2xl font-medium w-full " href="/">
+            <div className="w-full">
+              <div>
+                <Image
+                  className="mb-2"
+                  width={82}
+                  src="/Logo.svg"
+                  height={52}
+                  alt="logo"
+                />
+              </div>
             </div>
-          </div>
+          </Link>
           <NavigationMenu className="hidden md:flex">
             <NavigationMenuList>
               <Link

@@ -11,12 +11,12 @@ export default function MetricItem({
   description,
 }: MetricItemProps) {
   return (
-    <div>
-      <p className="text-[16px] mb-2  md:text-left tracking-[-1px] font-medium">
+    <div className="flex flex-col gap">
+      <p className="text-[16px] p-0 md:text-left tracking-[-1px] font-medium">
         {title}
       </p>
-      <h3 className="text-[32px] text-gcs_green">{metric}</h3>
-      <p className="text-gcs_green  text-[13px]">{description}</p>
+      <h3 className="text-[32px] font-bold p-0  text-gcs_green">{metric}</h3>
+      <p className="text-gcs_green p-0  text-[13px]">{description}</p>
     </div>
   );
 }

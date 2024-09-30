@@ -26,13 +26,6 @@ export function Footer() {
             </p>
             <div className="h-[40px] flex gap-3 items-center">
               <Image
-                src="/ISO.svg"
-                className="pb-4"
-                width={36}
-                height={24}
-                alt={""}
-              />
-              <Image
                 src="/FSSC.svg"
                 className="pb-4"
                 width={139}

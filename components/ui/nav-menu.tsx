@@ -14,7 +14,7 @@ export function NavMenu() {
         onClick={() => setOpen((prev) => !prev)}
       />
       {open && (
-        <div className="absolute bg-gcs_lightgreen text-gcs_green left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl z-10">
+        <div className="absolute z-50 bg-gcs_lightgreen text-gcs_green left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl">
           <Link href="/" onClick={handleCloseMenu}>
             Home
           </Link>

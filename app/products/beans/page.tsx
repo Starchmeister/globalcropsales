@@ -1,4 +1,4 @@
-import { Bean } from "lucide-react";
+import { Bean, Store } from "lucide-react";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductCard } from "@/components/ui/product-card";
@@ -125,18 +125,17 @@ export default function BeansPage() {
             <h1 className="text-left text-gcs_green sm:text-[96px] text-[52px] mb-4 font-semibold tracking-[-6px] leading-[52px] sm:leading-[91px]">
               Beans <br />
             </h1>
-            <p className="text-[13px] md:text-left">
-              Global Crop Sales specializes in supplying high-quality peanut
-              products, including peanut kernels, roasted peanuts, in-shell
-              peanuts, and blanched peanuts, tailored for bulk buyers across
-              various industries. Our peanuts cater to confectionery
-              manufacturers, oil processors, snack food companies, culinary
-              industries, nut butter producers, and animal feed suppliers. With
-              a commitment to consistency, reliability, and premium quality, we
-              support large-scale food processors, wholesalers, and distributors
-              in meeting their production needs and enhancing their product
-              offerings, ensuring a reliable supply for both domestic and
-              international markets.
+            <p className="text-[13px] md:text-left leading-relaxed">
+              Global Crop Sales specializes in delivering high-quality bulk
+              beans, including Red Speckled, Sugar Beans, Red Kidney Beans, and
+              Non-GMO Soybeans, ideal for food manufacturers, ready-meal
+              producers, canning companies, and distributors. Our beans are
+              sourced to meet the needs of the culinary, food production, and
+              animal feed industries, ensuring exceptional consistency, yield,
+              and quality. With a focus on reliability and sustainability, we
+              support large-scale processors, wholesalers, and distributors in
+              maintaining a steady supply chain, enabling them to meet both
+              domestic and international demand with confidence
             </p>
           </div>
           <div className="md:w-1/2 w-full  h-[500px] relative">
@@ -151,8 +150,9 @@ export default function BeansPage() {
           </div>
         </div>
       </section>
-      <section className="md:mb-[120px] w-full  p-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
-        <h3 className="text-[32px] text-center pb-4 tracking-[-2px] font-medium">
+      <section className="md:mb-[120px] w-full bg-gcs_lightgreen/20 p-4 py-32 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+        <Store className="w-full text-center" />
+        <h3 className="text-[42px] text-center pb-24 tracking-[-2px]  font-medium">
           Explore our Range of Beans
         </h3>
         <Tabs defaultValue="dry" className="w-full">

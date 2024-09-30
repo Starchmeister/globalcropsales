@@ -1,4 +1,4 @@
-import { Nut } from "lucide-react";
+import { Nut, Store } from "lucide-react";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductCard } from "@/components/ui/product-card";
@@ -114,7 +114,7 @@ const products = [
   {
     imageSrc: "/NutInShell25.svg",
     imageAlt: "Nut in Shell / 25mm",
-    productTitle: "Nut in Shell / 26mm",
+    productTitle: "Nut in Shell / +25mm",
     productDescription: "Packaged in polypropylene bags.",
     productOrigin: "South Africa, Malawi and Kenya",
     productType: "in-shells",
@@ -141,7 +141,7 @@ export default function MacadamiaNuts() {
               Macadamia <br />
               <span className="text-black">Nuts</span>
             </h1>
-            <p className="text-[13px] md:text-left">
+            <p className="text-[13px] md:text-left leading-relaxed">
               Global Crop Sales specializes in supplying high-quality peanut
               products, including peanut kernels, roasted peanuts, in-shell
               peanuts, and blanched peanuts, tailored for bulk buyers across
@@ -157,7 +157,7 @@ export default function MacadamiaNuts() {
           </div>
           <div className="md:w-1/2 w-full  h-[500px] relative">
             <Image
-              src="/PeanutsHero.svg"
+              src="/macadamiacover.svg"
               alt="Bulk Variety of Peanuts"
               layout="fill"
               objectFit="cover"
@@ -167,8 +167,9 @@ export default function MacadamiaNuts() {
           </div>
         </div>
       </section>
-      <section className="md:mb-[120px] w-full  p-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
-        <h3 className="text-[32px] text-center pb-4 tracking-[-2px] font-medium">
+      <section className="md:mb-[120px] w-full bg-gcs_lightgreen/20 p-4 py-32 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+        <Store className="w-full text-center" />
+        <h3 className="text-[42px] text-center pb-24 tracking-[-2px]  font-medium">
           Our Range of Macadamia Nuts
         </h3>
         <Tabs defaultValue="kernel" className="w-full">

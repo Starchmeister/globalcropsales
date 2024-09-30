@@ -4,14 +4,14 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Community Impact",
+  title: "Global Crop Sales | Community Impact",
 };
 
 const communityMetrics = [
   {
-    title: "Fair Wages",
-    metric: "15%",
-    description: "above market",
+    title: "Access to International Markets",
+    metric: "30%",
+    description: "Increase",
     type: "community",
   },
   {
@@ -23,7 +23,7 @@ const communityMetrics = [
   {
     title: "Increase in Farmer Income",
     metric: "25%",
-    description: "",
+    description: "Increase",
     type: "community",
   },
   {
@@ -59,7 +59,7 @@ const communityMetrics = [
   {
     title: "Post-Harvest Loss Reduction",
     metric: "50%",
-    description: "",
+    description: "Increase",
     type: "sustainability",
   },
   {
@@ -86,18 +86,29 @@ export default function CommunityImpactPage() {
           <br />
           Impact
         </h1>
-        <p className="text-[13px] text-center">
-          Our global business truly covers the full spectrum of peanuts’
-          <br />
-          potential. So no matter what variety, origin, or product type you’re
-          <br />
-          after, we can deliver it.
+        <p className="text-[13px] text-center leading-relaxed">
+          Global Crop Sales empowers communities by supporting smallholder
+          farmers, creating jobs,
+          <br /> and promoting sustainable agricultural development across
+          regions.
         </p>
       </section>
-      <section className="px-4 md:pb-0 pb-[120px] md:my-[60px] mb-[60px] w-full md:flex-row md:px-8 lg:px-16 xl:px-32 2xl:px-64">
-        <h3 className="text-[32px] text-center w-full pb-4 tracking-[-2px] font-medium">
+      <section className="px-4 md:pb-0 pb-[120px] md:my-[60px]  mb-[60px] w-full md:flex-row md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+        <h3 className="text-[42px]  text-center w-full tracking-[-2px] font-medium">
           Community Impact Metrics
         </h3>
+        <div className="flex justify-center">
+          <p className="text-[13px] text-center leading-relaxed w-1/2 pb-12">
+            Our community impact is driven by a commitment to inclusivity and
+            shared value. By providing seamless access and permission
+            management, we empower users to collaborate efficiently while
+            maintaining robust data security and integrity. Whether through
+            direct access or folder-based permissions, our platform enables a
+            streamlined workflow that ensures all stakeholders can contribute
+            meaningfully to shared goals, fostering a more connected and
+            empowered community.
+          </p>
+        </div>
         <div className="rounded-[10px] bg-gcs_lightgreen w-full h-[452px] mb-[120px] md:mb-[0px]  md:pb-[0px]  md:flex flex-row ">
           <div className="md:w-1/2 p-8 flex justify-center  py-8 md:items-start flex-col">
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full ">
@@ -122,9 +133,17 @@ export default function CommunityImpactPage() {
         </div>
       </section>
       <section className="px-4 md:pb-0 my-[40px] md:my-[180px] mb-[120px] w-full h-full md:flex-row md:px-8 lg:px-16 xl:px-32 2xl:px-64">
-        <h3 className="text-[32px] text-center pb-4 tracking-[-2px] font-medium">
+        <h3 className="text-[42px] text-center w-full tracking-[-2px] font-medium">
           Social and Progressive Metrics
         </h3>
+        <div className="flex justify-center">
+          <p className="text-[13px] text-center leading-relaxed w-1/2 pb-12">
+            Our rural development efforts are driving social and environmental
+            progress by increasing access to education, promoting gender
+            inclusion, reducing post-harvest losses, and fostering sustainable
+            farming practices for stronger, more resilient communities.
+          </p>
+        </div>
         <div className="rounded-[10px] bg-gcs_lightgreen w-full h-full  md:mb-[0px]  md:pb-[0px]  md:flex flex-row ">
           <div className="md:w-1/2 md:h-[452px] h-[320px] relative">
             <Image

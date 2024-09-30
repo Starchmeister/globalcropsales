@@ -16,7 +16,7 @@ export default function FoodSafetyPage() {
           <br />
           Safety
         </h1>
-        <p className="text-[13px] text-center">
+        <p className="text-[13px] text-center leading-relaxed">
           Our global business truly covers the full spectrum of peanuts’
           <br />
           potential. So no matter what variety, origin, or product type you’re
@@ -40,20 +40,19 @@ export default function FoodSafetyPage() {
         <div className="rounded-[10px] z-20 bg-gcs_lightgreen relative  w-full md:flex flex-row ">
           <div className=" p-8 flex z-20 bg-gcs_lightgreen  justify-center py-8 md:items-start flex-col rounded-[10px]">
             <Handshake className="w-[24px] mb-2 h-[24px]" />
-            <h3 className="text-[24px] pb-4 md:text-left tracking-[-2px] font-medium">
+            <h3 className="text-[42px] pb-4  md:text-left tracking-[-2px] font-medium">
               Our Partners
             </h3>
-            <p className="text-[13px] md:text-left">
+            <p className="text-sm md:text-left leading-relaxed">
               At Global Crop Sales, we partner closely with Nutaria, a trusted
               food processor renowned for its industry-leading standards and
               commitment to excellence.
               <br />
               <br />
-              Nutaria holds essential food safety certifications, including ISO
-              22000 and FSSC 22000, ensuring the highest levels of compliance
-              with international food safety regulations. Nutarias
-              state-of-the-art processing facilities are equipped with the
-              latest technology, enabling precise and efficient handling of
+              Nutaria holds essential food safety certifications, such as FSSC
+              22000, ensuring the highest levels of compliance with
+              international food safety regulations. Nutaria’s state-of-the-art
+              processing facilities enables precise and efficient handling of
               crops such as nuts, beans, and other produce. Their rigorous
               quality control processes are designed to maintain the integrity,
               safety, and freshness of every product, from farm to export.

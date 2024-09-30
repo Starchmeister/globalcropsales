@@ -23,7 +23,7 @@ export function ImageCard({
           <Image
             src={backgroundImageUrl}
             alt={backgroundImageAlt}
-            className="rounded-[10px] absolute object-cover"
+            className="rounded-[10px] absolute object-cover hover:opacity-90"
             sizes="33vw"
             fill
           />

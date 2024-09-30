@@ -1,4 +1,4 @@
-import { Nut } from "lucide-react";
+import { Nut, Store } from "lucide-react";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductCard } from "@/components/ui/product-card";
@@ -51,7 +51,7 @@ const products = [
     productType: "kernel",
   },
   {
-    imageSrc: "/RedSkins.svg",
+    imageSrc: " /RedSkins.svg",
     imageAlt: "Redskins (Valencia)",
     productTitle: "Redskins (Valencia)",
     productDescription:
@@ -196,7 +196,7 @@ const products = [
     productType: "roasted",
   },
   {
-    imageSrc: "/Redskins.svg",
+    imageSrc: " /Redskins.svg",
     imageAlt: "Redskins (Valenica)",
     productTitle: "Redskins (Valenica)",
     productDescription:
@@ -290,23 +290,23 @@ export default function Peanuts() {
             <h1 className="text-left text-gcs_green sm:text-[96px] text-[52px] mb-4 font-semibold tracking-[-6px] leading-[52px] sm:leading-[91px]">
               Peanuts
             </h1>
-            <p className="text-[13px] md:text-left">
-              Global Crop Sales specializes in supplying high-quality peanut
-              products, including peanut kernels, roasted peanuts, in-shell
-              peanuts, and blanched peanuts, tailored for bulk buyers across
-              various industries. Our peanuts cater to confectionery
-              manufacturers, oil processors, snack food companies, culinary
-              industries, nut butter producers, and animal feed suppliers. With
-              a commitment to consistency, reliability, and premium quality, we
-              support large-scale food processors, wholesalers, and distributors
-              in meeting their production needs and enhancing their product
-              offerings, ensuring a reliable supply for both domestic and
-              international markets.
+            <p className="text-[13px] md:text-left leading-relaxed">
+              Global Crop Sales offers premium macadamia products, including raw
+              kernels, in-shell nuts, and cold-pressed macadamia oil, suited for
+              a wide range of industries. Our macadamias cater to food
+              manufacturers, gourmet snack producers, oil extractors, and
+              cosmetic industries seeking the finest quality. With an emphasis
+              on consistency, flavor, and nutritional value, we support
+              large-scale buyers in meeting their production goals. Whether
+              supplying for gourmet snacking, baking, or cosmetic formulations,
+              Global Crop Sales ensures a reliable supply of macadamias to
+              enhance product lines and meet both domestic and international
+              market demands.
             </p>
           </div>
           <div className="md:w-1/2 w-full h-[500px] relative">
             <Image
-              src="/PeanutsHero.svg"
+              src="/peanutscover.svg"
               alt="Bulk Variety of Peanuts"
               layout="fill"
               objectFit="cover"
@@ -316,8 +316,9 @@ export default function Peanuts() {
           </div>
         </div>
       </section>
-      <section className="md:mb-[120px] w-full p-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
-        <h3 className="text-[32px] text-center pb-4 tracking-[-2px] font-medium">
+      <section className="md:mb-[120px] w-full bg-gcs_lightgreen/20 p-4 py-32 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+        <Store className="w-full text-center" />
+        <h3 className="text-[42px] text-center pb-24 tracking-[-2px]  font-medium">
           Our Range of Peanuts
         </h3>
         <Tabs defaultValue="kernel" className="w-full">
