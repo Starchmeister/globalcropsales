@@ -173,40 +173,12 @@ export default function AboutUs() {
                   Other Events you can find us at:
                 </h3>
               </div>
-              <div className=" md:h-[100px] w-full flex gap-8 relative">
+              <div className=" w-full flex gap-8 relative">
                 <div className=" relative h-full">
                   <Image
-                    src="/MalawiChamber.svg"
-                    width={100}
-                    height={100}
-                    alt={""}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className=" relative h-full">
-                  <Image
-                    src="/FHC.svg"
-                    width={100}
-                    height={100}
-                    alt={""}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className=" relative h-full">
-                  <Image
-                    src="/GTR.svg"
-                    width={100}
-                    height={100}
-                    alt={""}
-                    sizes="100vw"
-                  />
-                </div>
-
-                <div className=" h-full relative">
-                  <Image
-                    src="/CIIME.svg"
-                    width={315}
-                    height={100}
+                    src="/TradeContainer.svg"
+                    width={300}
+                    height={200}
                     alt={""}
                     sizes="100vw"
                   />
