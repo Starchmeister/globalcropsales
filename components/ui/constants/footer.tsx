@@ -55,6 +55,7 @@ export function Footer() {
               </h3>
               <div className="flex flex-col text-[13px] gap-2">
                 <Link href="/">Home</Link>
+                <Link href="/about-us">About Us</Link>
                 <Link href="/products/peanuts">Peanuts</Link>
                 <Link href="/products/macadamia-nuts">Macadamia Nuts</Link>
                 <Link href="/products/beans">Beans</Link>

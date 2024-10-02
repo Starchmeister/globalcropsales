@@ -106,8 +106,8 @@ const products = [
   },
   {
     imageSrc: "/JungoBeans.svg",
-    imageAlt: "White Beans",
-    productTitle: "White Beans",
+    imageAlt: "Jungo Beans",
+    productTitle: "Jungo Beans",
     productDescription:
       "Used in traditional African dishes and for making nutrient-rich flour.",
     productOrigin: "South Africa.",
