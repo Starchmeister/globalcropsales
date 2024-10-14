@@ -46,14 +46,21 @@ export default function AboutUs() {
               sizes="100vw"
             />
             <div className=" absolute bottom-24 h-[300px] bg-white  rounded-r-[10px] overflow-hidden">
-              <div className="relative w-full h-[250px]">
-                <Image
-                  src="/Founder.svg"
-                  alt="William Kumwenda"
-                  layout="fill"
-                  objectFit="cover"
-                />
-              </div>
+              <Link
+                href="https://www.linkedin.com/in/william-kumwenda-b6266316a/?originalSubdomain=za"
+                passHref
+              >
+                <a target="_blank">
+                  <div className="relative w-full h-[250px]">
+                    <Image
+                      src="/Founder.svg"
+                      alt=" Mr William Kumwenda"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
+                </a>
+              </Link>
               <div className="py-2 pl-2 pr-3">
                 <p className="text-[10px] ml-1">Mr William Kumwenda, Founder</p>
                 <Link href="https://www.linkedin.com/in/william-kumwenda-b6266316a/?originalSubdomain=za">
