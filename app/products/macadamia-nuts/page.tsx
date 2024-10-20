@@ -120,9 +120,9 @@ const products = [
     productType: "in-shells",
   },
   {
-    imageSrc: "/CoilPressedOil.svg",
-    imageAlt: "Coil Pressed Oil",
-    productTitle: "Coil Pressed Oil",
+    imageSrc: "/ColdPressedOil.svg",
+    imageAlt: "Cold Pressed Oil",
+    productTitle: "Cold Pressed Oil",
     productDescription:
       "Cold-pressed macadamia oil offers a pure, rich flavor and exceptional health benefits, ideal for gourmet cooking and premium cosmetic formulations.",
     productOrigin: "South Africa",
