@@ -120,7 +120,7 @@ const products = [
     productType: "in-shells",
   },
   {
-    imageSrc: "/ColdPressedOil.svg",
+    imageSrc: "/CoilPressedOil.svg",
     imageAlt: "Cold Pressed Oil",
     productTitle: "Cold Pressed Oil",
     productDescription:
