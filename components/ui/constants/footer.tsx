@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export function Footer() {
+
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gcs_lightgreen relative ">
       <div className="p-8 w-full text-black md:px-8 lg:px-16 xl:px-32 2xl:px-64">
@@ -103,7 +105,7 @@ export function Footer() {
       </div>
       <div className="absolute h-11 w-full bottom-0 bg-gcs_green flex justify-center items-center md:px-8 lg:px-16 xl:px-32 2xl:px-64">
         <p className="text-white text-[13px] font-semibold">
-          © Copyright Global Crop Sales, All Rights Reserved 2024.
+          © Copyright Global Crop Sales, All Rights Reserved {currentYear}.
         </p>
       </div>
     </footer>
